@@ -1,0 +1,14 @@
+{
+  "name": "pipenv-presentation",
+  "version": "1.0.0",
+  "description": "Pipenv Presentation for PYerevan #3 Meetup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start -s -f '*.html' 'res/*' '*.md'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
